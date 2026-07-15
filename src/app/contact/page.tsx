@@ -132,6 +132,9 @@ export default function ContactPage() {
                 {portfolioData.owner.socialLinks.instagram && (
                   <li><a href={portfolioData.owner.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="font-body-lg text-body-lg text-gray-600 hover:text-[#C4B5FD] transition-colors interactive-element flex items-center justify-between group">Instagram <ArrowUpRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" /></a></li>
                 )}
+                {portfolioData.owner.socialLinks.fiverr && (
+                  <li><a href={portfolioData.owner.socialLinks.fiverr} target="_blank" rel="noopener noreferrer" className="font-body-lg text-body-lg text-gray-600 hover:text-[#C4B5FD] transition-colors interactive-element flex items-center justify-between group">Fiverr <ArrowUpRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" /></a></li>
+                )}
               </ul>
             </div>
           </div>

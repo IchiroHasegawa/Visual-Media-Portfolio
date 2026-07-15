@@ -6,6 +6,7 @@ export interface SocialLinks {
   instagram?: string;
   twitter?: string;
   behance?: string;
+  fiverr?: string;
 }
 
 export interface PortfolioOwner {
@@ -88,13 +89,14 @@ export const portfolioData: PortfolioData = {
     initials: "MXD",
     professionalTitle: "Video Editor, Motion Graphics Designer and Graphic Designer",
     description: "Focusing on rhythm, emotion, and visual impact. Dedicated to crafting narratives that resonate.",
-    email: "[EMAIL_ADDRESS]",
+    email: "[blazekiller2398@gmail.com]",
     location: "UP, Jharkhand",
     socialLinks: {
       linkedin: "https://linkedin.com",
       vimeo: "https://vimeo.com",
       instagram: "https://instagram.com",
-      behance: "https://behance.net"
+      behance: "https://behance.net",
+      fiverr: "https://fiverr.com",
     }
   },
   hero: {

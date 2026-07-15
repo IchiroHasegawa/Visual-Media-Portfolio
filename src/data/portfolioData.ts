@@ -167,7 +167,7 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Print // Design",
       description: "A typographic poster design for an international exhibition.",
-      thumbnail: "https://www.youtube.com/watch?v=42JyRjrLzjY",
+      thumbnail: "https://images.unsplash.com/photo-1549490349-8643362247b5",
       featured: true,
       aspectRatio: "aspect-[3/4]"
     },
@@ -178,7 +178,7 @@ export const portfolioData: PortfolioData = {
       category: "Motion Graphics",
       type: "Motion // 2D",
       description: "An animated explainer video breaking down complex tech concepts.",
-      thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
+      thumbnail: "https://www.youtube.com/watch?v=42JyRjrLzjY",
       featured: true,
       aspectRatio: "aspect-square"
     },

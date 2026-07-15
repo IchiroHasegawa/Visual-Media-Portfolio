@@ -80,12 +80,12 @@ export interface PortfolioData {
 
 export const portfolioData: PortfolioData = {
   owner: {
-    fullName: "Altamash Arfat Khan",
+    fullName: "Altamash A. Khan",
     displayNameLines: [
       "ALTAMASH",
-      "ARFAT KHAN"
+      "A. KHAN"
     ],
-    initials: "AAK",
+    initials: "MXD",
     professionalTitle: "Video Editor, Motion Graphics Designer and Graphic Designer",
     description: "Focusing on rhythm, emotion, and visual impact. Dedicated to crafting narratives that resonate.",
     email: "[EMAIL_ADDRESS]",
@@ -112,7 +112,6 @@ export const portfolioData: PortfolioData = {
       items: [
         "Premiere Pro",
         "DaVinci Resolve",
-        "Avid Media Composer",
         "Color Grading"
       ]
     },
@@ -120,8 +119,6 @@ export const portfolioData: PortfolioData = {
       category: "Motion Graphics",
       items: [
         "After Effects",
-        "Cinema 4D",
-        "Blender",
         "Typography Animation"
       ]
     },
@@ -130,8 +127,7 @@ export const portfolioData: PortfolioData = {
       items: [
         "Photoshop",
         "Illustrator",
-        "Figma",
-        "InDesign"
+        "Figma"
       ]
     }
   ],
@@ -156,8 +152,8 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       id: "edu1",
-      degree: "BFA in Film & Television",
-      school: "Tisch School of the Arts, NYU",
+      degree: "BACHELORS OF ARTS IN ENGLISH",
+      school: "I",
       period: "2012 — 2016",
       honors: "Honors",
       description: "Specialized in Post-Production"

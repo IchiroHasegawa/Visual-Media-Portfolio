@@ -54,6 +54,8 @@ export interface EducationItem {
   description: string;
 }
 
+export type ProjectMediaType = "image" | "video";
+
 export interface ProjectData {
   id: string;
   slug: string;
@@ -61,8 +63,12 @@ export interface ProjectData {
   category: string;
   type: string;
   description: string;
+  mediaType: ProjectMediaType;
   thumbnail: string;
+  posterImage?: string;
+  fullImage?: string;
   videoUrl?: string;
+  galleryImages?: string[];
   featured: boolean;
   aspectRatio: string; // e.g., "aspect-[3/4]", "aspect-square", "aspect-[21/9]", "aspect-[4/5]"
   role?: string;
@@ -169,8 +175,9 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Print // Design",
       description: "A typographic poster design for an international exhibition.",
+      mediaType: "image",
       thumbnail: "/images/your-thumbnail.jpg",
-      videoUrl: "[INSERT_VIDEO_URL_HERE]",
+      fullImage: "/images/your-thumbnail.jpg",
       featured: true,
       aspectRatio: "aspect-[3/4]"
     },
@@ -181,7 +188,9 @@ export const portfolioData: PortfolioData = {
       category: "Motion Graphics",
       type: "Motion // 2D",
       description: "An animated explainer video breaking down complex tech concepts.",
+      mediaType: "video",
       thumbnail: "/images/image1.png",
+      posterImage: "/images/image1.png",
       videoUrl: "[https://youtu.be/42JyRjrLzjY?si=P54QZWJallGdYGBk]",
       featured: true,
       aspectRatio: "aspect-square"
@@ -193,7 +202,9 @@ export const portfolioData: PortfolioData = {
       category: "Video Editing",
       type: "Film // Edit",
       description: "A short documentary film highlighting local artists.",
+      mediaType: "video",
       thumbnail: "/images/your-thumbnail.jpg",
+      posterImage: "/images/your-thumbnail.jpg",
       videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[21/9]"
@@ -205,8 +216,9 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Ad // Visuals",
       description: "A visual campaign promoting sustainable lifestyle choices.",
+      mediaType: "image",
       thumbnail: "/images/your-thumbnail.jpg",
-      videoUrl: "[INSERT_VIDEO_URL_HERE]",
+      fullImage: "/images/your-thumbnail.jpg",
       featured: true,
       aspectRatio: "aspect-[4/5]"
     }

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Link as LinkIcon, PlayCircle, Camera } from "lucide-react";
 import { portfolioData } from "@/data/portfolioData";
+import { ProjectCardInteraction } from "@/components/work/ProjectCardInteraction";
 
 export default function Home() {
   const featuredProjects = portfolioData.projects.filter(p => p.featured);
@@ -76,15 +77,19 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter auto-rows-[300px] md:auto-rows-[400px]">
           {featuredProjects.map((project, index) => (
-            <div key={project.id} className={`col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container ${index === 0 ? 'md:col-span-12' : ''}`}>
+            <ProjectCardInteraction 
+              key={project.id} 
+              project={project}
+              className={`col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container block ${index === 0 ? 'md:col-span-12' : ''}`}
+            >
               <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
-                <Image src={project.thumbnail} alt={project.title} fill className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
+                <Image src={project.thumbnail} alt={project.title} fill sizes={index === 0 ? "100vw" : "(max-width: 768px) 100vw, 33vw"} className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
               </div>
               <div className="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                 <h4 className="font-body-lg text-body-lg text-on-surface font-semibold mb-1">{project.title}</h4>
                 <p className="font-label-technical text-label-technical text-on-surface-variant uppercase">{project.type}</p>
               </div>
-            </div>
+            </ProjectCardInteraction>
           ))}
         </div>
       </section>

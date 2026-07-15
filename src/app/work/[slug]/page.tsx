@@ -63,9 +63,15 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </SectionContainer>
 
-      <SectionContainer className="bg-surface/30">
-        <ProjectVideo thumbnail={project.thumbnail} videoUrl={project.videoUrl} />
-      </SectionContainer>
+      <section id="project-media" className="scroll-mt-32">
+        <SectionContainer className="bg-surface/30">
+          <ProjectVideo 
+            thumbnail={project.thumbnail} 
+            posterImage={project.posterImage}
+            videoUrl={project.videoUrl} 
+          />
+        </SectionContainer>
+      </section>
     </div>
   );
 }

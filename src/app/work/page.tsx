@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlayCircle } from "lucide-react";
 import { portfolioData } from "@/data/portfolioData";
+import { ProjectCardInteraction } from "@/components/work/ProjectCardInteraction";
 
 export default function WorkPage() {
   return (
@@ -30,10 +31,10 @@ export default function WorkPage() {
         <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
           {portfolioData.projects.map((project) => (
             <article key={project.id} className="relative group overflow-hidden border border-gray-200 break-inside-avoid">
-              <Link href={`/work/${project.slug}`}>
+              <ProjectCardInteraction project={project} className="block">
                 <div className={`${project.aspectRatio} bg-gray-100 w-full relative`}>
-                  <Image src={project.thumbnail} alt={project.title} fill className="w-full h-full object-cover" />
-                  {project.category.includes("Motion") || project.category.includes("Video") ? (
+                  <Image src={project.thumbnail} alt={project.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover" />
+                  {project.mediaType === "video" ? (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
                       <PlayCircle className="w-16 h-16 text-white drop-shadow-md" aria-hidden="true" />
                     </div>
@@ -43,7 +44,7 @@ export default function WorkPage() {
                   <span className="font-label-technical text-label-technical text-gray-500 uppercase">{project.type}</span>
                   <h3 className="font-headline-md text-headline-md text-gray-900">{project.title}</h3>
                 </div>
-              </Link>
+              </ProjectCardInteraction>
             </article>
           ))}
         </div>

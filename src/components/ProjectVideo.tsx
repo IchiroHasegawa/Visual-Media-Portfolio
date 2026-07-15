@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Play } from "lucide-react";
 
 interface ProjectVideoProps {
   thumbnail: string;
+  posterImage?: string;
   videoUrl?: string;
 }
 
@@ -29,8 +30,17 @@ function getEmbedUrl(url: string) {
   }
 }
 
-export function ProjectVideo({ thumbnail, videoUrl }: ProjectVideoProps) {
+export function ProjectVideo({ thumbnail, posterImage, videoUrl }: ProjectVideoProps) {
   const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    if (window.location.hash === "#project-media") {
+      const el = document.getElementById("project-media");
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
+      }
+    }
+  }, []);
 
   // If no video URL or it's just the placeholder, don't allow playback
   const hasValidVideo = videoUrl && videoUrl !== "" && !videoUrl.includes("INSERT_VIDEO_URL_HERE");
@@ -40,10 +50,12 @@ export function ProjectVideo({ thumbnail, videoUrl }: ProjectVideoProps) {
     
     // If it's an mp4, use native video tag
     if (embedUrl.endsWith(".mp4") || embedUrl.endsWith(".webm")) {
+      const cleanPoster = (posterImage || thumbnail).replace(/\[|\]/g, "").trim();
       return (
         <div className="aspect-video relative bg-black w-full overflow-hidden border border-border">
           <video 
             src={embedUrl}
+            poster={cleanPoster}
             controls
             autoPlay
             className="w-full h-full object-contain"
@@ -66,13 +78,19 @@ export function ProjectVideo({ thumbnail, videoUrl }: ProjectVideoProps) {
   }
 
   // Ensure thumbnail string is properly cleaned of brackets if any
-  const cleanThumbnail = thumbnail.replace(/\[|\]/g, "").trim();
+  const imageToUse = posterImage || thumbnail;
+  const cleanThumbnail = imageToUse.replace(/\[|\]/g, "").trim();
 
   return (
     <div className="aspect-video relative bg-black border border-border w-full flex items-center justify-center group overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center opacity-50 group-hover:opacity-40 transition-opacity" 
-        style={{ backgroundImage: `url('${cleanThumbnail}')` }} 
+      {/* 
+        Using an img element with object-fit: cover is more semantic and avoids background-image loading issues 
+        where the container appears black before the CSS image loads.
+      */}
+      <img
+        src={cleanThumbnail}
+        alt="Video thumbnail preview"
+        className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity"
       />
       <div className="absolute inset-0 bg-black/20" />
       

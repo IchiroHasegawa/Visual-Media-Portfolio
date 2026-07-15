@@ -1,0 +1,902 @@
+﻿
+=== cinematic.html ===
+
+Tailwind Config found (first 500 chars): tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-container": "#025483",
+                      "on-primary-fixed-variant": "#3f465f",
+                      "tertiary-fixed-dim": "#c6c6c6",
+                      "surface-container-highest": "#353534",
+                      "primary-fixed": "#dce1ff",
+                      "surface": "#131313",
+                      "primary-container": "#0a1128",
+  
+<div class="custom-cursor hidden md:block">
+</div>
+<div class="grid-overlay hidden md:grid">
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+</div>
+<nav class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl dark:bg-surface/60 border-b border-outline-variant/10 cursor-none transition-all duration-500 ease-in-out">
+  <div class="flex justify-between items-center px-margin-desktop py-8 w-full">
+    <a class="font-headline-md text-headline-md text-on-surface dark:text-on-surface tracking-tighter interactive-element">STUDIO_NOIR</a>
+    <div class="hidden md:flex space-x-8">
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-primary border-b border-primary pb-1 interactive-element hover:opacity-70 transition-opacity">Projects</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 interactive-element hover:opacity-70 transition-opacity">Services</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 interactive-element hover:opacity-70 transition-opacity">Contact</a>
+    </div>
+    <button class="md:hidden text-primary dark:text-primary interactive-element hover:opacity-70 transition-opacity">menu</button>
+  </div>
+</nav>
+<main class="relative z-10 pt-[120px]">
+  <section class="relative min-h-[921px] flex flex-col justify-center px-margin-mobile md:px-margin-desktop mb-32">
+    <div class="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-gutter mt-20">
+      <div class="col-span-1 md:col-span-12 pointer-events-none">
+        <h1 class="font-display-xl-mobile text-display-xl-mobile md:font-display-xl md:text-display-xl text-on-background uppercase text-overlay-effect whitespace-nowrap overflow-hidden">ALEX CHEN</h1>
+      </div>
+      <div class="col-span-1 md:col-start-2 md:col-span-8 lg:col-start-3 lg:col-span-7 mt-16 md:-mt-24 bg-surface/40 backdrop-blur-md p-8 md:p-12 border border-outline-variant/20 rounded-DEFAULT">
+        <p class="font-label-technical text-label-technical text-secondary mb-6">// INTRO</p>
+        <h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-surface mb-8">I am a versatile video editor who partners with di</h2>
+        <p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-2xl">Focusing on rhythm, emotion, and visual impact. De</p>
+        <a class="inline-flex items-center justify-center px-8 py-4 bg-inverse-surface text-inverse-on-surface font-label-technical text-label-technical uppercase tracking-widest hover:bg-secondary hover:text-on-secondary transition-colors duration-300 interactive-element">See My Reel
+                        arrow_forward</a>
+      </div>
+      <div class="hidden md:flex col-start-1 col-span-1 absolute left-margin-desktop bottom-0 flex-col space-y-6 pb-24">
+        <a class="font-label-technical text-label-technical text-on-surface-variant hover:text-secondary interactive-element flex items-center space-x-2">link
+LinkedIn</a>
+        <a class="font-label-technical text-label-technical text-on-surface-variant hover:text-secondary interactive-element flex items-center space-x-2">play_circle
+Vimeo</a>
+        <a class="font-label-technical text-label-technical text-on-surface-variant hover:text-secondary interactive-element flex items-center space-x-2">photo_camera
+Instagram</a>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// SELECTED PROJECTS</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">The Cut</h3>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter auto-rows-[300px] md:auto-rows-[400px]">
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container md:col-span-12">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsBik1ak2FnjaaFXccT4Vwj7p-5N3ummqi-TrvUT-g4QTVp2McBW_eeAjY69D-3n8IxkedPQ54nSN-ihh0ri68Qxi-8_yT9btqa69VEwrfNkkEs9QD78rsTiyMQj3vU_aJX9WL3eWDb-ZZaLHXR7_Fx_9XOUE6-MsuEG7VcOCJjvKu8Ajrt6WiHtFpTmOpKTvBMuaIFk5fXvmyPNTmT2Kic__XQte3TN-2jHRcfCW0iRYhEgFvDMZkLWIIR35QwJOpNRSsZAKt_Q9J" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">Form & Function</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Commercial // Color Grade</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7Z0lHrVm_tBNB8ghJVfIK1tzM0MF8-j2iV0UeXedeR7rkczFbWJ37dMJqD2bdn8IyGJOrvLKYRPXtdgHgbCRKe-HoyKsN1C_Zgdg87CBbmfcnD1NZ0ksXY0rmP7IYJy1aFQ56fiI2BDJkVWFoUGJR9N42UX6aPbctp1GzBITBPj65TKB7QmCruuWjer1ZTz0_mGzyg-4NSchG8_4oogZqhfu_Ow-FjUUBMUeJmh8L2s6o7bn3kjiCpbjnfxRcEa0Yc0PbMPVpX2RX" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">Urban Echoes</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Short Film // Narrative</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxNltfE27T4HKdKxrRp5ExUrV0_pZzKqCAMSoch4bu7u-vxWm6ygy5_Fec9R_L3INo7uk5KR4wcNCsVEf6k8C1y6lOokcMWqtzI7uIrpMsugSA6yeHzpZFzHuqGvPridcqj7aKlo20GDU5-aAIUTWfJ8igtii_RGtXMOkTvADAVSL2H1pU07kpHNvTnYUQpikvDlBbAP3Ttzklxi00F_eopUF3-_ULNJC5lk5uqOkpiftEbL64aDaYSSoFL9PtagTLHT7kuFxov7dc" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">Neon Pulse</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Music Video // Visuals</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdvDZfxI6JnfOl_7hnixz4gelMRR02iHlDAyJ3V-OBKFmgVcj6-KNrPczfPyO6AP2G_GFO88FyjId1yFuJjGuiW6aZsOsMJqrgQd3MoKU1NKvqN7iaAJghpV9OnF3JfhbK0VSDsi_UHGL_DqgQ6MBppVZBtc6nBISwrg1sNXwrENUJc6_K_2iLAi-IZE12hrfEPcx6nzIgQP6GQh9oriXw_l_orIoFlVTW4-fhS1YwL8YI-gtveQ8xdiHhI3obAeSlJwhz72UrDHM_" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">The Lens</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Documentary // Edit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// EXPERTISE</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">Skills</h3>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+      <div class="col-span-1 md:col-span-4 space-y-6">
+        <h4 class="font-label-technical text-label-technical text-primary uppercase tracking-widest">Video Editing</h4>
+        <ul class="space-y-2 font-body-md text-on-surface-variant">
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-1 md:col-span-4 space-y-6">
+        <h4 class="font-label-technical text-label-technical text-primary uppercase tracking-widest">Motion Graphics</h4>
+        <ul class="space-y-2 font-body-md text-on-surface-variant">
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-1 md:col-span-4 space-y-6">
+        <h4 class="font-label-technical text-label-technical text-primary uppercase tracking-widest">Graphic Design</h4>
+        <ul class="space-y-2 font-body-md text-on-surface-variant">
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// JOURNEY</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">Experience</h3>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter border-b border-outline-variant/10 pb-8">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2021 — PRESENT</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Senior Video Editor</h4>
+          <p class="font-body-md text-on-surface-variant">Studio Noir // Lead editor for commercial and narr</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Full-time</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter border-b border-outline-variant/10 pb-8">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2018 — 2021</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Freelance Motion Designer</h4>
+          <p class="font-body-md text-on-surface-variant">Various Agencies // Developed high-impact motion g</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Contract</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2016 — 2018</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Junior Editor</h4>
+          <p class="font-body-md text-on-surface-variant">Pixel Flow Media // Assisted in the assembly and r</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Full-time</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// ACADEMIC</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">Education</h3>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter border-b border-outline-variant/10 pb-8">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2012 — 2016</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">BFA in Film & Television</h4>
+          <p class="font-body-md text-on-surface-variant">Tisch School of the Arts, NYU // Specialized in Po</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Honors</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2016</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Advanced Color Grading Certification</h4>
+          <p class="font-body-md text-on-surface-variant">International Colorist Academy // Intensive traini</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Certified</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="w-full py-16 bg-surface dark:bg-surface border-t border-outline-variant/10 transition-all duration-300 relative z-20">
+  <div class="grid grid-cols-1 md:grid-cols-12 px-margin-mobile md:px-margin-desktop gap-gutter">
+    <div class="col-span-1 md:col-span-4 flex flex-col justify-between">
+      <p class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant">© 2024 STUDIO_NOIR. ALL RIGHTS RESERVED.</p>
+    </div>
+    <div class="col-span-1 md:col-span-4 md:col-start-9 flex flex-col md:items-end justify-end space-y-4">
+      <p class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant mb-2">Connect</p>
+      <div class="flex flex-col md:items-end space-y-2">
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">LinkedIn</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Vimeo</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Behance</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== contact.html ===
+
+Tailwind Config found (first 500 chars): tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                            "secondary-container": "#025483",
+                            "on-primary-fixed-variant": "#3f465f",
+                            "tertiary-fixed-dim": "#c6c6c6",
+                            "surface-container-highest": "#353534",
+                            "primary-fixed": "#dce1ff",
+                            "surface": "#131313",
+      
+<div class="cursor-dot">
+</div>
+<div class="cursor-outline">
+</div>
+<div class="fixed inset-0 grid-bg pointer-events-none z-0">
+</div>
+<nav class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl dark:bg-surface/60 border-b border-outline-variant/10 cursor-none transition-all duration-500 ease-in-out">
+  <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-8 w-full">
+    <a class="font-headline-md text-headline-md text-on-surface dark:text-on-surface tracking-tighter interactive-element">Portfolio</a>
+    <div class="hidden md:flex gap-gutter items-center">
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 hover:opacity-70 interactive-element">Projects</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 hover:opacity-70 interactive-element">Services</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-primary border-b border-primary pb-1 hover:opacity-70 interactive-element">Contact</a>
+      <button class="ml-4 interactive-element">menu</button>
+    </div>
+  </div>
+</nav>
+<main class="flex-grow pt-32 pb-24 relative z-10">
+  <section class="px-margin-mobile md:px-margin-desktop py-16 md:py-32">
+    <div class="grid grid-cols-12 gap-gutter">
+      <div class="col-span-12 md:col-span-10">
+        <h1 class="font-display-xl-mobile text-display-xl-mobile md:font-display-xl md:text-display-xl text-primary mb-8 tracking-tighter">Let's CreateTogether</h1>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop">
+    <div class="grid grid-cols-12 gap-gutter md:gap-x-16">
+      <div class="col-span-12 md:col-span-7 lg:col-span-6 mb-16 md:mb-0">
+        <form class="space-y-12">
+          <div class="relative group">
+            <label class="block font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant mb-2">
+            </label>
+            <input class="w-full bg-transparent border-0 border-b border-outline-variant rounded-none px-0 py-4 font-body-lg text-body-lg text-on-surface focus:ring-0 transition-colors interactive-element">
+            </input>
+          </div>
+          <div class="relative group">
+            <label class="block font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant mb-2">
+            </label>
+            <input class="w-full bg-transparent border-0 border-b border-outline-variant rounded-none px-0 py-4 font-body-lg text-body-lg text-on-surface focus:ring-0 transition-colors interactive-element">
+            </input>
+          </div>
+          <div class="relative group">
+            <label class="block font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant mb-2">
+            </label>
+            <textarea class="w-full bg-transparent border-0 border-b border-outline-variant rounded-none px-0 py-4 font-body-lg text-body-lg text-on-surface focus:ring-0 transition-colors resize-none interactive-element">
+            </textarea>
+          </div>
+          <button class="inline-flex items-center justify-center w-full md:w-auto px-12 py-6 bg-on-surface text-surface font-label-technical text-label-technical uppercase tracking-widest hover:bg-secondary-container hover:text-on-primary transition-colors duration-300 interactive-element group">Send Message
+                            arrow_for</button>
+        </form>
+      </div>
+      <div class="col-span-12 md:col-span-5 lg:col-span-4 lg:col-start-8 flex flex-col justify-between">
+        <div class="space-y-12">
+          <div class="">
+            <h3 class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant mb-4">Direct Email</h3>
+            <a class="font-headline-md text-headline-md text-primary hover:text-secondary-container transition-colors interactive-element inline-block">hello@studionoir.com</a>
+          </div>
+          <div class="">
+            <h3 class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant mb-4">Socials</h3>
+            <div class="flex flex-col gap-4">
+              <a class="flex items-center gap-4 font-body-lg text-body-lg text-on-surface hover:text-primary transition-colors interactive-element group">link
+
+LinkedIn</a>
+              <a class="flex items-center gap-4 font-body-lg text-body-lg text-on-surface hover:text-primary transition-colors interactive-element group">link
+
+Vimeo</a>
+              <a class="flex items-center gap-4 font-body-lg text-body-lg text-on-surface hover:text-primary transition-colors interactive-element group">link
+
+Behance</a>
+              <a class="flex items-center gap-4 font-body-lg text-body-lg text-on-surface hover:text-primary transition-colors interactive-element group">link
+
+Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="w-full py-16 bg-surface dark:bg-surface border-t border-outline-variant/10 transition-all duration-300 relative z-10">
+  <div class="grid grid-cols-12 px-margin-mobile md:px-margin-desktop gap-gutter items-center">
+    <div class="col-span-12 md:col-span-6 flex items-center gap-4">
+    </div>
+    <div class="col-span-12 md:col-span-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-4 mt-8 md:mt-0">
+      <div class="flex gap-6">
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">LinkedIn</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Vimeo</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Instagram</a>
+      </div>
+      <p class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant">© 2024 STUDIO_NOIR. ALL RIGHTS RESERVED.</p>
+    </div>
+  </div>
+</footer>
+
+=== home.html ===
+
+Tailwind Config found (first 500 chars): tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-container": "#025483",
+                      "on-primary-fixed-variant": "#3f465f",
+                      "tertiary-fixed-dim": "#c6c6c6",
+                      "surface-container-highest": "#353534",
+                      "primary-fixed": "#dce1ff",
+                      "surface": "#131313",
+                      "primary-container": "#0a1128",
+  
+<div class="custom-cursor hidden md:block active">
+</div>
+<div class="grid-overlay hidden md:grid">
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+  <div class="grid-line">
+  </div>
+</div>
+<nav class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl dark:bg-surface/60 border-b border-outline-variant/10 cursor-none transition-all duration-500 ease-in-out">
+  <div class="flex justify-between items-center px-margin-desktop py-8 w-full">
+    <a class="font-headline-md text-headline-md text-on-surface dark:text-on-surface tracking-tighter interactive-element">Portfolio</a>
+    <div class="hidden md:flex space-x-8">
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-primary border-b border-primary pb-1 interactive-element hover:opacity-70 transition-opacity">Projects</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 interactive-element hover:opacity-70 transition-opacity">Services</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 interactive-element hover:opacity-70 transition-opacity">Contact</a>
+    </div>
+    <button class="md:hidden text-primary dark:text-primary interactive-element hover:opacity-70 transition-opacity">menu</button>
+  </div>
+</nav>
+<main class="relative z-10 pt-[120px]">
+  <section class="relative min-h-[921px] flex flex-col justify-center px-margin-mobile md:px-margin-desktop mb-32">
+    <div class="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-gutter mt-20">
+      <div class="col-span-1 md:col-span-12 pointer-events-none">
+        <h1 class="font-display-xl-mobile text-display-xl-mobile md:font-display-xl md:text-display-xl text-on-background uppercase text-overlay-effect whitespace-nowrap overflow-hidden">ALEX CHEN</h1>
+      </div>
+      <div class="col-span-1 md:col-start-2 md:col-span-8 lg:col-start-3 lg:col-span-7 mt-16 md:-mt-24 bg-surface/40 backdrop-blur-md p-8 md:p-12 border border-outline-variant/20 rounded-DEFAULT">
+        <p class="font-label-technical text-label-technical text-secondary mb-6">// INTRO</p>
+        <h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-surface mb-8">I am a versatile video editor who partners with di</h2>
+        <p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-2xl">Focusing on rhythm, emotion, and visual impact. De</p>
+        <a class="inline-flex items-center justify-center px-8 py-4 bg-inverse-surface text-inverse-on-surface font-label-technical text-label-technical uppercase tracking-widest hover:bg-secondary hover:text-on-secondary transition-colors duration-300 interactive-element">See My Reel
+                        arrow_forward</a>
+      </div>
+      <div class="hidden md:flex col-start-1 col-span-1 absolute left-margin-desktop bottom-0 flex-col space-y-6 pb-24">
+        <a class="font-label-technical text-label-technical text-on-surface-variant hover:text-secondary interactive-element flex items-center space-x-2">link
+LinkedIn</a>
+        <a class="font-label-technical text-label-technical text-on-surface-variant hover:text-secondary interactive-element flex items-center space-x-2">play_circle
+Vimeo</a>
+        <a class="font-label-technical text-label-technical text-on-surface-variant hover:text-secondary interactive-element flex items-center space-x-2">photo_camera
+Instagram</a>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// SELECTED PROJECTS</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">The Cut</h3>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter auto-rows-[300px] md:auto-rows-[400px]">
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container md:col-span-12">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsBik1ak2FnjaaFXccT4Vwj7p-5N3ummqi-TrvUT-g4QTVp2McBW_eeAjY69D-3n8IxkedPQ54nSN-ihh0ri68Qxi-8_yT9btqa69VEwrfNkkEs9QD78rsTiyMQj3vU_aJX9WL3eWDb-ZZaLHXR7_Fx_9XOUE6-MsuEG7VcOCJjvKu8Ajrt6WiHtFpTmOpKTvBMuaIFk5fXvmyPNTmT2Kic__XQte3TN-2jHRcfCW0iRYhEgFvDMZkLWIIR35QwJOpNRSsZAKt_Q9J" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">Form & Function</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Commercial // Color Grade</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7Z0lHrVm_tBNB8ghJVfIK1tzM0MF8-j2iV0UeXedeR7rkczFbWJ37dMJqD2bdn8IyGJOrvLKYRPXtdgHgbCRKe-HoyKsN1C_Zgdg87CBbmfcnD1NZ0ksXY0rmP7IYJy1aFQ56fiI2BDJkVWFoUGJR9N42UX6aPbctp1GzBITBPj65TKB7QmCruuWjer1ZTz0_mGzyg-4NSchG8_4oogZqhfu_Ow-FjUUBMUeJmh8L2s6o7bn3kjiCpbjnfxRcEa0Yc0PbMPVpX2RX" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">Urban Echoes</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Short Film // Narrative</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxNltfE27T4HKdKxrRp5ExUrV0_pZzKqCAMSoch4bu7u-vxWm6ygy5_Fec9R_L3INo7uk5KR4wcNCsVEf6k8C1y6lOokcMWqtzI7uIrpMsugSA6yeHzpZFzHuqGvPridcqj7aKlo20GDU5-aAIUTWfJ8igtii_RGtXMOkTvADAVSL2H1pU07kpHNvTnYUQpikvDlBbAP3Ttzklxi00F_eopUF3-_ULNJC5lk5uqOkpiftEbL64aDaYSSoFL9PtagTLHT7kuFxov7dc" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">Neon Pulse</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Music Video // Visuals</p>
+        </div>
+      </div>
+      <div class="col-span-1 md:col-span-4 row-span-1 group relative overflow-hidden border border-outline-variant/20 interactive-element bg-surface-container">
+        <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdvDZfxI6JnfOl_7hnixz4gelMRR02iHlDAyJ3V-OBKFmgVcj6-KNrPczfPyO6AP2G_GFO88FyjId1yFuJjGuiW6aZsOsMJqrgQd3MoKU1NKvqN7iaAJghpV9OnF3JfhbK0VSDsi_UHGL_DqgQ6MBppVZBtc6nBISwrg1sNXwrENUJc6_K_2iLAi-IZE12hrfEPcx6nzIgQP6GQh9oriXw_l_orIoFlVTW4-fhS1YwL8YI-gtveQ8xdiHhI3obAeSlJwhz72UrDHM_" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 p-6 bg-surface/80 backdrop-blur-sm border-t border-outline-variant/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-1">The Lens</h4>
+          <p class="font-label-technical text-label-technical text-on-surface-variant uppercase">Documentary // Edit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// EXPERTISE</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">Skills</h3>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+      <div class="col-span-1 md:col-span-4 space-y-6">
+        <h4 class="font-label-technical text-label-technical text-primary uppercase tracking-widest">Video Editing</h4>
+        <ul class="space-y-2 font-body-md text-on-surface-variant">
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-1 md:col-span-4 space-y-6">
+        <h4 class="font-label-technical text-label-technical text-primary uppercase tracking-widest">Motion Graphics</h4>
+        <ul class="space-y-2 font-body-md text-on-surface-variant">
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-1 md:col-span-4 space-y-6">
+        <h4 class="font-label-technical text-label-technical text-primary uppercase tracking-widest">Graphic Design</h4>
+        <ul class="space-y-2 font-body-md text-on-surface-variant">
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+          <li class="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// JOURNEY</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">Experience</h3>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter border-b border-outline-variant/10 pb-8">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2021 — PRESENT</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Senior Video Editor</h4>
+          <p class="font-body-md text-on-surface-variant">Studio Noir // Lead editor for commercial and narr</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Full-time</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter border-b border-outline-variant/10 pb-8">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2018 — 2021</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Freelance Motion Designer</h4>
+          <p class="font-body-md text-on-surface-variant">Various Agencies // Developed high-impact motion g</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Contract</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2016 — 2018</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Junior Editor</h4>
+          <p class="font-body-md text-on-surface-variant">Pixel Flow Media // Assisted in the assembly and r</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Full-time</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="px-margin-mobile md:px-margin-desktop py-24 border-t border-outline-variant/10 relative">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-16">
+      <div class="col-span-1 md:col-span-4">
+        <p class="font-label-technical text-label-technical text-secondary mb-4">// ACADEMIC</p>
+        <h3 class="font-headline-md text-headline-md text-on-surface uppercase">Education</h3>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter border-b border-outline-variant/10 pb-8">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2012 — 2016</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">BFA in Film & Television</h4>
+          <p class="font-body-md text-on-surface-variant">Tisch School of the Arts, NYU // Specialized in Po</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Honors</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+        <div class="col-span-1 md:col-span-3">
+          <p class="font-label-technical text-label-technical text-on-surface-variant">2016</p>
+        </div>
+        <div class="col-span-1 md:col-span-6">
+          <h4 class="font-body-lg text-body-lg text-on-surface font-semibold mb-2">Advanced Color Grading Certification</h4>
+          <p class="font-body-md text-on-surface-variant">International Colorist Academy // Intensive traini</p>
+        </div>
+        <div class="col-span-1 md:col-span-3 md:text-right">
+          <p class="font-label-technical text-label-technical text-primary uppercase">Certified</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="w-full py-16 bg-surface dark:bg-surface border-t border-outline-variant/10 transition-all duration-300 relative z-20">
+  <div class="grid grid-cols-1 md:grid-cols-12 px-margin-mobile md:px-margin-desktop gap-gutter">
+    <div class="col-span-1 md:col-span-4 flex flex-col justify-between">
+      <p class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant">© 2024 STUDIO_NOIR. ALL RIGHTS RESERVED.</p>
+    </div>
+    <div class="col-span-1 md:col-span-4 md:col-start-9 flex flex-col md:items-end justify-end space-y-4">
+      <p class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant mb-2">Connect</p>
+      <div class="flex flex-col md:items-end space-y-2">
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">LinkedIn</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Vimeo</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Behance</a>
+        <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive-element">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== project.html ===
+
+Tailwind Config found (first 500 chars): tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "on-secondary-fixed-variant": "#054b70",
+                "on-primary-fixed-variant": "#394761",
+                "secondary-fixed": "#cbe6ff",
+                "outline": "#75777e",
+                "on-primary-container": "#7684a1",
+                "on-secondary": "#ffffff",
+                "surface-container-low": "#eff4ff",
+                "error-container": "#ffdad6",
+                "on-
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-outline-variant/30 transition-all duration-300">
+  <div class="flex justify-between items-center px-gutter py-base max-w-[1440px] mx-auto">
+    <a class="font-headline-md text-headline-md tracking-tighter text-on-surface">STUDIO_VFX</a>
+    <div class="hidden md:flex space-x-8 items-center">
+      <a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors hover:opacity-80 transition-opacity duration-300 ease-in-out">Home</a>
+      <a class="font-label-sm text-label-sm uppercase tracking-widest text-secondary border-b-2 border-secondary pb-1 duration-300 ease-in-out">Video</a>
+      <a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors hover:opacity-80 transition-opacity duration-300 ease-in-out">Design</a>
+      <a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors hover:opacity-80 transition-opacity duration-300 ease-in-out">About</a>
+      <a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors hover:opacity-80 transition-opacity duration-300 ease-in-out">Contact</a>
+    </div>
+    <button class="bg-[#4A7FA7] text-white font-label-sm text-label-sm uppercase tracking-widest px-6 py-3 rounded-DEFAULT hover:bg-[#4A7FA7]/90 transition-colors duration-300 hidden md:block">Hire Me</button>
+    <button class="md:hidden text-on-surface">menu</button>
+  </div>
+</nav>
+<main class="pt-[100px] md:pt-[120px]">
+  <section class="px-gutter max-w-[1440px] mx-auto mb-16 md:mb-[120px]">
+    <div class="relative w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-xl bg-surface-container-lowest border border-outline-variant/30 shadow-sm">
+      <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmayt1y2oBUTOMvXxc_dPmzXtxj-1bKiKqc_-hHCz3BPXM_jZOvvndmNsJAp1wgJp8LsrKIoCgcNwdbdUsXBULVXMKUo__odBLhSaBTm45ilEzFwjVG-XTvdkvyR54yWnHNvqfeG1k5R9XYwI9ElT5SzbI1ao7WtoW6S1o05A20W6QUXm2yVT29dD8uaV2PEHGOPO1Uq0y38fsU9-oavsjBLoDLtZRlxTp2OYZ4plXl3y7yCcGbhPOuaX2OQo1j-yk4cWfbXXOmeFX" class="w-full h-full object-cover">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 bg-white/30 cursor-pointer group backdrop-blur-sm">
+        <div class="w-20 h-20 rounded-full border-2 border-white flex items-center justify-center bg-white/20 backdrop-blur-md group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          <span class="material-symbols-outlined text-white text-4xl ml-2">
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="bento-grid mt-12 md:mt-24">
+      <div class="col-span-12 md:col-span-8">
+        <h1 class="font-headline-lg-mobile md:font-headline-xl text-headline-lg-mobile md:text-headline-xl text-[#0A1931] mb-6">Cyber Drift 2077</h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">A deep dive into the creation of the sprawling met</p>
+      </div>
+      <div class="col-span-12 md:col-span-4 flex flex-col justify-end border-t md:border-t-0 md:border-l border-outline-variant/30 pt-8 md:pt-0 md:pl-12 mt-8 md:mt-0">
+        <div class="mb-8">
+          <span class="block font-label-sm text-label-sm text-on-surface-variant mb-2 uppercase tracking-widest">
+          </span>
+          <span class="font-body-lg text-body-lg text-[#0A1931] font-semibold">
+          </span>
+        </div>
+        <div class="mb-8">
+          <span class="block font-label-sm text-label-sm text-on-surface-variant mb-2 uppercase tracking-widest">
+          </span>
+          <span class="font-body-lg text-body-lg text-[#0A1931] font-semibold">
+          </span>
+        </div>
+        <div class="">
+          <span class="block font-label-sm text-label-sm text-on-surface-variant mb-2 uppercase tracking-widest">
+          </span>
+          <span class="font-body-lg text-body-lg text-[#0A1931] font-semibold">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="px-gutter max-w-[1440px] mx-auto mb-16 md:mb-[120px]">
+    <div class="bento-grid">
+      <div class="col-span-12 md:col-span-6 bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-8 md:p-12 hover:border-[#4A7FA7]/50 hover:shadow-md transition-all duration-500 group">
+        <span class="material-symbols-outlined text-[#4A7FA7] mb-6 text-3xl">
+        </span>
+        <h3 class="font-headline-md text-headline-md text-[#0A1931] mb-4">The Challenge</h3>
+        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Generating a dense, believable futuristic city tha</p>
+      </div>
+      <div class="col-span-12 md:col-span-6 bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-8 md:p-12 hover:border-[#4A7FA7]/50 hover:shadow-md transition-all duration-500 group">
+        <span class="material-symbols-outlined text-[#4A7FA7] mb-6 text-3xl">
+        </span>
+        <h3 class="font-headline-md text-headline-md text-[#0A1931] mb-4">The Process</h3>
+        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">We developed a custom Houdini toolset to scatter b</p>
+      </div>
+      <div class="col-span-12 bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-8 md:p-12 mt-6 flex flex-col md:flex-row gap-12 items-center hover:border-[#4A7FA7]/50 hover:shadow-md transition-all duration-500">
+        <div class="flex-1">
+          <span class="material-symbols-outlined text-[#4A7FA7] mb-6 text-3xl">
+          </span>
+          <h3 class="font-headline-md text-headline-md text-[#0A1931] mb-4">The Result</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">A seamless two-minute continuous flythrough shot t</p>
+        </div>
+        <div class="flex-1 w-full relative aspect-video rounded overflow-hidden shadow-sm">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHqnJdOrDZ5S-TFSOJ--9nV4yOLxT679eKVLm4nM60sEmZnTc_Yya3OrjGTJpAoJ0V5XymMOmalP0_wUFstfoGrMAHB9YNDe9yR6LZJurJ2yaigiEp1wleAux2zD7eEx6J-164R1KP93Ed9I8j0uJ3z7rdzAEe2xB3AdmnnGNRaCjWr3jVmCuo6-isk0u_W_XLzH4M7ulMdFWAK2qS2EafhhplMCyW6__VHNEd-P7VwQprUSfxSLrLiVzcUCX8aX_17WOnSif_hELz" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="max-w-[1920px] mx-auto mb-16 md:mb-[120px]">
+    <div class="px-gutter flex justify-between items-end mb-12 max-w-[1440px] mx-auto">
+      <h2 class="font-headline-lg text-headline-lg text-[#0A1931]">Behind The Scenes</h2>
+      <span class="font-label-sm text-label-sm text-[#4A7FA7] uppercase tracking-widest hidden md:block font-semibold">
+      </span>
+    </div>
+    <div class="flex flex-col gap-6 md:gap-12 px-gutter md:px-0">
+      <div class="w-full md:w-[85%] ml-auto aspect-[21/9] bg-surface-container-lowest border border-outline-variant/30 rounded-xl md:rounded-l-xl md:rounded-r-none overflow-hidden group cursor-crosshair shadow-sm">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9HXsAlEFKqEx2d1zs9c0kDu0j5tjf0K8K5xHNcMzDJVCA_RYpsfxi4Qgrc4FBNkPkNqcHyO41DmVfm5JzludfSsL6oNYCvCZccd7IqedZ_s8OcuTMZPp1tTBdunak0HcdHMVAKImSvIl70-oDrXj433GDfKQ6JY6os7nYNpdAhzyef3gRGnbV39MbMpN_To3I9AguTBXuz5FBMLhte7N5TOWYbxFcsJzIlIv0KOshKBiIb2sC-prlgodQroMjaEEeWUPNcYH5EE31" class="w-full h-full object-cover image-zoom-hover">
+      </div>
+      <div class="flex flex-col md:flex-row gap-6 md:gap-12 w-full md:w-[90%] mr-auto">
+        <div class="flex-1 aspect-square md:aspect-[4/3] bg-surface-container-lowest border border-outline-variant/30 rounded-xl md:rounded-r-xl md:rounded-l-none overflow-hidden group cursor-crosshair shadow-sm">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF092bIQWgrS74LHxklwtrYKgIxCMnWlB5FYVXatZZ-JDUBDwz3Kw1KSGUHTlmTJvCPbm0KjFbkLLik8peRrYvfVFyIybkVtxCcEfmgPx7vPiTEZmP8V4IpI0JDucwh1OmhmZUNLmjHRp6ufjXFSqsdmojXECZOVY7Y3hPyiUepI6FoQFfiR0Tw-8y_5_pcXTgiNXTc--cX1jzAoZV2Dz9EYImZg9lJCLwSgZrQLGxCOo86VJWgfKD6z8u9GL0_kr0zaNGRBc_2s7o" class="w-full h-full object-cover image-zoom-hover">
+        </div>
+        <div class="flex-1 aspect-square md:aspect-[4/3] bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden group cursor-crosshair shadow-sm">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ4HIf4sW2iqwD9EzbyFZJl_wHaE07kNdLyPYYJRO2SmLQX7JdYfROHmBKL-61IC53EtcSzA-WpXE1l7TXMPvgZqWKLwu0qFGZ8_vRRhE7tGArbsu8JX9DDo9GsCp78PpUqdoLqDmPH9N-hV-f4nxMwxuKyEPVh6ojGHiaGrX4Tz96tBJ-kmW8axLGrk8-HIDCAPYl_qDWhqq9N7qKRS8XcVQvW4YEzskYO7k4PZiNQ7y6nDhP9rcN5OuMwqYIke35iT7ntZMsVUSC" class="w-full h-full object-cover image-zoom-hover">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="px-gutter max-w-[1440px] mx-auto mb-16 md:mb-[120px] border-t border-outline-variant/30 pt-24">
+    <a class="block group text-center">Next Project
+Quantum Echoes</a>
+  </section>
+</main>
+<footer class="w-full py-16 md:py-[64px] bg-white border-t border-outline-variant/30">
+  <div class="flex flex-col md:flex-row justify-between items-center px-gutter max-w-[1440px] mx-auto gap-8">
+    <div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-4 md:mb-0">
+    </div>
+    <div class="flex space-x-6">
+      <a class="font-body-md text-body-md text-[#0A1931] hover:text-[#4A7FA7] transition-colors duration-200">Vimeo</a>
+      <a class="font-body-md text-body-md text-[#0A1931] hover:text-[#4A7FA7] transition-colors duration-200">Behance</a>
+      <a class="font-body-md text-body-md text-[#0A1931] hover:text-[#4A7FA7] transition-colors duration-200">LinkedIn</a>
+      <a class="font-body-md text-body-md text-[#0A1931] hover:text-[#4A7FA7] transition-colors duration-200">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+=== work.html ===
+
+Tailwind Config found (first 500 chars): tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-container": "#025483",
+                      "on-primary-fixed-variant": "#3f465f",
+                      "tertiary-fixed-dim": "#c6c6c6",
+                      "surface-container-highest": "#353534",
+                      "primary-fixed": "#dce1ff",
+                      "surface": "#131313",
+                      "primary-container": "#0a1128",
+  
+<div class="cursor-dot hidden md:block">
+</div>
+<div class="cursor-outline hidden md:block">
+</div>
+<div class="grid-overlay">
+</div>
+<nav class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl border-b border-outline-variant/10 flex justify-between items-center px-margin-mobile md:px-margin-desktop py-8 transition-all duration-500 ease-in-out">
+  <a class="font-headline-md text-headline-md text-on-surface tracking-tighter interactive">Portfolio</a>
+  <ul class="hidden md:flex gap-8 items-center">
+    <li class="">
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-primary border-b border-primary pb-1 interactive">Projects</a>
+    </li>
+    <li class="">
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 hover:opacity-70 interactive">Services</a>
+    </li>
+    <li class="">
+      <a class="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors duration-300 hover:opacity-70 interactive">Contact</a>
+    </li>
+    <li class="">
+      <button class="text-on-surface hover:opacity-70 transition-opacity interactive flex items-center justify-center">menu</button>
+    </li>
+  </ul>
+  <button class="md:hidden text-on-surface interactive">menu</button>
+</nav>
+<main class="flex-grow pt-[120px] pb-32 px-margin-mobile md:px-margin-desktop w-full max-w-[1920px] mx-auto">
+  <header class="mb-24 md:mb-32">
+    <h1 class="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-on-surface break-words mb-8 z-10 relative">SELECTEDWORKS</h1>
+    <div class="flex flex-wrap gap-4 border-t border-outline-variant/20 pt-8">
+      <button class="filter-btn active font-label-technical text-label-technical uppercase tracking-widest border border-outline-variant px-6 py-3 hover:bg-on-surface hover:text-surface transition-colors interactive">All</button>
+      <button class="filter-btn font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant border border-outline-variant/30 px-6 py-3 hover:border-outline-variant hover:text-on-surface transition-colors interactive">Video Editing</button>
+      <button class="filter-btn font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant border border-outline-variant/30 px-6 py-3 hover:border-outline-variant hover:text-on-surface transition-colors interactive">Motion Graphics</button>
+      <button class="filter-btn font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant border border-outline-variant/30 px-6 py-3 hover:border-outline-variant hover:text-on-surface transition-colors interactive">Graphic Design</button>
+    </div>
+  </header>
+  <div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+    <article class="work-tile relative group overflow-hidden bg-surface-container border border-outline-variant/10 break-inside-avoid">
+      <div class="aspect-[3/4] bg-surface-container-high w-full relative">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDy-eqOBffa_0nekcHfku1VicR9byQFPNbQVJ1FYWGA8p6mWzwPY1oHFCqRoMLxp9BokwG___rRZQyViU-RwhhD7oNHf4umS16thTGwAOMrDVXhIHOAwwA_U7YNelo8EFo46l0XR6I3tVb3e14fsNU3lPtp2qabCrkV2HLMekcyEiJxdGgxEY3LWRuXMOGF6aVqCwrGKWh-EwJz1Jm6BhUyAOqzpXjsemjPFn0sVS1inB-WO2gLQW7IOOGjQr0PmqUfRGfmzH4qv9O" class="work-tile-img w-full h-full object-cover">
+      </div>
+      <div class="work-tile-meta absolute bottom-0 left-0 w-full p-6 bg-surface-container-highest/90 backdrop-blur-md border-t border-outline-variant/20 z-10 flex flex-col gap-2">
+        <span class="font-label-technical text-label-technical text-primary uppercase">
+        </span>
+        <h3 class="font-headline-md text-headline-md text-on-surface">Type Exhibition Poster</h3>
+      </div>
+    </article>
+    <article class="work-tile relative group overflow-hidden bg-surface-container border border-outline-variant/10 break-inside-avoid">
+      <div class="aspect-square bg-surface-container-high w-full relative">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXYfGUAg9TrZ8AI_qHmH_Gbuusl5GioB0qtahaHyXPvGVUvKApMBrCEf_Z-HwKF1_2YzQ9XKw3BiMpmR-h5Ckd8s3dvAs8-YlpHwvhCIrczE_ebs08JyMy59fD16p71dupsIEnUQwMcKSDVY8Smf-q54a3AVw6o58RdQpc4Zcshd5loWffFFvDUeFZ6ctRn3YEme2yFW2eN8NKOLHHtofz1Yri7JO2ZzjkP5idwHc-HRRku9u-HAhywVvZV5s72qmMbeqWFcSFejxv" class="work-tile-img w-full h-full object-cover">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <span class="material-symbols-outlined text-on-surface text-[64px]">
+          </span>
+        </div>
+      </div>
+      <div class="work-tile-meta absolute bottom-0 left-0 w-full p-6 bg-surface-container-highest/90 backdrop-blur-md border-t border-outline-variant/20 z-10 flex flex-col gap-2">
+        <span class="font-label-technical text-label-technical text-primary uppercase">
+        </span>
+        <h3 class="font-headline-md text-headline-md text-on-surface">Tech Co. Explainer</h3>
+      </div>
+    </article>
+    <article class="work-tile relative group overflow-hidden bg-surface-container border border-outline-variant/10 break-inside-avoid">
+      <div class="aspect-[21/9] bg-surface-container-high w-full relative">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSVjujYs4KATHCMSkNYvh69cDed30Qs_e-gumMNb67HBKM5v2r6itXV18PrG7PNhyg_0P5gJwqhV3eY2rVogS3_5N6JwaSoPJDPEKO1HU5TgO9F0PyxSS-CATErj18fH10Y238Y3KEv9Jp3r6pCcvjOGp4WskX8_hjlIBnxseN_QFiufl1IAMfzExnCqkz_Usdo44Tb6_h5FijsBHwUwNa2XpaNlITzP3e_e0hb0hmhzpzbuWPhG2jyxx2wqA-ZJkjLy81wa53_L3N" class="work-tile-img w-full h-full object-cover">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <span class="material-symbols-outlined text-on-surface text-[64px]">
+          </span>
+        </div>
+      </div>
+      <div class="work-tile-meta absolute bottom-0 left-0 w-full p-6 bg-surface-container-highest/90 backdrop-blur-md border-t border-outline-variant/20 z-10 flex flex-col gap-2">
+        <span class="font-label-technical text-label-technical text-primary uppercase">
+        </span>
+        <h3 class="font-headline-md text-headline-md text-on-surface">Documentary Short</h3>
+      </div>
+    </article>
+    <article class="work-tile relative group overflow-hidden bg-surface-container border border-outline-variant/10 break-inside-avoid">
+      <div class="aspect-[4/5] bg-surface-container-high w-full relative">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQQTsOnJPmh9aQwQCOW2HTkWHWHQa3PHWdrXKJGlseAiq0PErQO-ayyfn7MXj6WIQUVPh-PLLDJvdGfO50ziKGxFlLDrsG2LD0YqzYi9D1wN6b3Lqs8y2kZiMiRWlDN92ogCk96hNqSMoVU3A1P1PcZrbyQP76FRF1ukrXA44IJ8VwTIZuRdFqV6C95jHo2pMvuj6vcccigZofPA1v7NaJLFSlbAHkUXZCErlqU4_KIgDQxCxZd3dPmrJL0uOEFqWFk93BlxQACPL3" class="work-tile-img w-full h-full object-cover">
+      </div>
+      <div class="work-tile-meta absolute bottom-0 left-0 w-full p-6 bg-surface-container-highest/90 backdrop-blur-md border-t border-outline-variant/20 z-10 flex flex-col gap-2">
+        <span class="font-label-technical text-label-technical text-primary uppercase">
+        </span>
+        <h3 class="font-headline-md text-headline-md text-on-surface">Sustainable Living Campaign</h3>
+      </div>
+    </article>
+  </div>
+  <section class="mt-32 pt-32 border-t border-outline-variant/10 text-center">
+    <h2 class="font-display-xl-mobile md:font-headline-lg text-display-xl-mobile md:text-headline-lg text-on-surface mb-8">READY TO COLLABORATE?</h2>
+    <a class="inline-block bg-on-surface text-surface font-label-technical text-label-technical uppercase tracking-widest px-12 py-6 hover:bg-secondary hover:text-on-secondary transition-colors duration-300 interactive">Start a Project</a>
+  </section>
+</main>
+<footer class="w-full py-16 bg-surface border-t border-outline-variant/10 transition-all duration-300">
+  <div class="grid grid-cols-12 px-margin-mobile md:px-margin-desktop gap-gutter items-center">
+    <div class="col-span-12 md:col-span-4 flex justify-center md:justify-start">
+    </div>
+    <div class="col-span-12 md:col-span-4 text-center">
+      <span class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant">
+      </span>
+    </div>
+    <div class="col-span-12 md:col-span-4 flex justify-center md:justify-end gap-6">
+      <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive">LinkedIn</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive">Vimeo</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive">Behance</a>
+      <a class="font-label-technical text-label-technical uppercase tracking-tighter text-on-surface-variant hover:text-primary transition-colors duration-300 interactive">Instagram</a>
+    </div>
+  </div>
+</footer>

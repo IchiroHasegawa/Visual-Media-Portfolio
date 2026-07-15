@@ -152,11 +152,11 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       id: "edu1",
-      degree: "BACHELORS OF ARTS IN ENGLISH",
-      school: "I",
+      degree: "B.A (Hons) in English",
+      school: "I.G.N.O.U",
       period: "2012 — 2016",
       honors: "Honors",
-      description: "Specialized in Post-Production"
+      description: "Specialized in English"
     }
   ],
   projects: [
@@ -167,7 +167,7 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Print // Design",
       description: "A typographic poster design for an international exhibition.",
-      thumbnail: "https://images.unsplash.com/photo-1549490349-8643362247b5",
+      thumbnail: "https://www.youtube.com/watch?v=42JyRjrLzjY",
       featured: true,
       aspectRatio: "aspect-[3/4]"
     },

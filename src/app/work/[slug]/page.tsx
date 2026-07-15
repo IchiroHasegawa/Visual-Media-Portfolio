@@ -1,6 +1,6 @@
 import { SectionContainer } from "@/components/layout/SectionContainer";
 import { Button } from "@/components/ui/Button";
-import { projects } from "@/lib/data";
+import { portfolioData } from "@/data/portfolioData";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Play } from "lucide-react";
@@ -12,14 +12,14 @@ interface ProjectPageProps {
 }
 
 export function generateStaticParams() {
-  return projects.map((project) => ({
+  return portfolioData.projects.map((project) => ({
     slug: project.slug,
   }));
 }
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = await params;
-  const project = projects.find((p) => p.slug === slug);
+  const project = portfolioData.projects.find((p) => p.slug === slug);
 
   if (!project) {
     notFound();
@@ -40,18 +40,24 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </p>
           </div>
           <div className="lg:col-span-4 flex flex-col gap-6 pt-2">
-            <div>
-              <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-muted mb-2">Role</h3>
-              <p className="text-lg font-medium">{project.role}</p>
-            </div>
-            <div>
-              <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-muted mb-2">Client</h3>
-              <p className="text-lg font-medium">{project.client}</p>
-            </div>
-            <div>
-              <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-muted mb-2">Year</h3>
-              <p className="text-lg font-medium">{project.year}</p>
-            </div>
+            {project.role && (
+              <div>
+                <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-muted mb-2">Role</h3>
+                <p className="text-lg font-medium">{project.role}</p>
+              </div>
+            )}
+            {project.client && (
+              <div>
+                <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-muted mb-2">Client</h3>
+                <p className="text-lg font-medium">{project.client}</p>
+              </div>
+            )}
+            {project.year && (
+              <div>
+                <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-muted mb-2">Year</h3>
+                <p className="text-lg font-medium">{project.year}</p>
+              </div>
+            )}
           </div>
         </div>
       </SectionContainer>

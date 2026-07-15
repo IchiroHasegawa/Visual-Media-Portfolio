@@ -2,11 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { type Project } from "@/lib/data";
+import { type ProjectData } from "@/data/portfolioData";
 import { motion } from "framer-motion";
 
 interface PortfolioCardProps {
-  project: Project;
+  project: ProjectData;
   className?: string;
 }
 

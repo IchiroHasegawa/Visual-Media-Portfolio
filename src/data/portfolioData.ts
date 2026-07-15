@@ -64,6 +64,9 @@ export interface ProjectData {
   videoUrl?: string;
   featured: boolean;
   aspectRatio: string; // e.g., "aspect-[3/4]", "aspect-square", "aspect-[21/9]", "aspect-[4/5]"
+  role?: string;
+  client?: string;
+  year?: string;
 }
 
 export interface PortfolioData {

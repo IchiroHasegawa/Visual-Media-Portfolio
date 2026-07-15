@@ -10,6 +10,7 @@ export interface SocialLinks {
 
 export interface PortfolioOwner {
   fullName: string;
+  displayNameLines: string[];
   initials: string;
   professionalTitle: string;
   description: string;
@@ -76,12 +77,16 @@ export interface PortfolioData {
 
 export const portfolioData: PortfolioData = {
   owner: {
-    fullName: "Alex Chen",
-    initials: "AC",
+    fullName: "Altamash Arfat Khan",
+    displayNameLines: [
+      "ALTAMASH",
+      "ARFAT KHAN"
+    ],
+    initials: "AAK",
     professionalTitle: "Video Editor, Motion Graphics Designer and Graphic Designer",
     description: "Focusing on rhythm, emotion, and visual impact. Dedicated to crafting narratives that resonate.",
-    email: "hello@example.com",
-    location: "Los Angeles, CA",
+    email: "[EMAIL_ADDRESS]",
+    location: "UP, Jharkhand",
     socialLinks: {
       linkedin: "https://linkedin.com",
       vimeo: "https://vimeo.com",

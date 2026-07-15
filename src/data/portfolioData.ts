@@ -167,7 +167,8 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Print // Design",
       description: "A typographic poster design for an international exhibition.",
-      thumbnail: "https://images.unsplash.com/photo-1549490349-8643362247b5",
+      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[3/4]"
     },
@@ -178,7 +179,8 @@ export const portfolioData: PortfolioData = {
       category: "Motion Graphics",
       type: "Motion // 2D",
       description: "An animated explainer video breaking down complex tech concepts.",
-      thumbnail: "https://www.youtube.com/watch?v=42JyRjrLzjY",
+      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-square"
     },
@@ -189,7 +191,8 @@ export const portfolioData: PortfolioData = {
       category: "Video Editing",
       type: "Film // Edit",
       description: "A short documentary film highlighting local artists.",
-      thumbnail: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4",
+      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[21/9]"
     },
@@ -200,7 +203,8 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Ad // Visuals",
       description: "A visual campaign promoting sustainable lifestyle choices.",
-      thumbnail: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09",
+      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[4/5]"
     }

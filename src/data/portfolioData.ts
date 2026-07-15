@@ -96,7 +96,7 @@ export const portfolioData: PortfolioData = {
       vimeo: "https://vimeo.com",
       instagram: "https://instagram.com",
       behance: "https://behance.net",
-      fiverr: "https://fiverr.com",
+      fiverr: "https://www.fiverr.com/s/2KYDN8L",
     }
   },
   hero: {
@@ -169,7 +169,7 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Print // Design",
       description: "A typographic poster design for an international exhibition.",
-      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      thumbnail: "/images/your-thumbnail.jpg",
       videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[3/4]"
@@ -181,8 +181,8 @@ export const portfolioData: PortfolioData = {
       category: "Motion Graphics",
       type: "Motion // 2D",
       description: "An animated explainer video breaking down complex tech concepts.",
-      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
-      videoUrl: "[INSERT_VIDEO_URL_HERE]",
+      thumbnail: "/images/your-thumbnail.jpg",
+      videoUrl: "[https://youtu.be/42JyRjrLzjY?si=P54QZWJallGdYGBk]",
       featured: true,
       aspectRatio: "aspect-square"
     },
@@ -193,7 +193,7 @@ export const portfolioData: PortfolioData = {
       category: "Video Editing",
       type: "Film // Edit",
       description: "A short documentary film highlighting local artists.",
-      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      thumbnail: "/images/your-thumbnail.jpg",
       videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[21/9]"
@@ -205,7 +205,7 @@ export const portfolioData: PortfolioData = {
       category: "Graphic Design",
       type: "Ad // Visuals",
       description: "A visual campaign promoting sustainable lifestyle choices.",
-      thumbnail: "[INSERT_THUMBNAIL_URL_HERE]",
+      thumbnail: "/images/your-thumbnail.jpg",
       videoUrl: "[INSERT_VIDEO_URL_HERE]",
       featured: true,
       aspectRatio: "aspect-[4/5]"

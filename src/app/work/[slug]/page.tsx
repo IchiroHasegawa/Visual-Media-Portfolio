@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/Button";
 import { portfolioData } from "@/data/portfolioData";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Play } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import { ProjectVideo } from "@/components/ProjectVideo";
 
 interface ProjectPageProps {
   params: Promise<{
@@ -63,24 +64,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       </SectionContainer>
 
       <SectionContainer className="bg-surface/30">
-        <div className="aspect-video relative bg-black border border-border w-full flex items-center justify-center group overflow-hidden">
-          {/* Custom Video Player Mock */}
-          <div 
-            className="absolute inset-0 bg-cover bg-center opacity-50 group-hover:opacity-40 transition-opacity" 
-            style={{ backgroundImage: `url(${project.thumbnail})` }} 
-          />
-          <div className="absolute inset-0 bg-black/20" />
-          <button className="z-10 w-20 h-20 rounded-full bg-primary/90 flex items-center justify-center text-white hover:bg-primary transition-colors transform hover:scale-105">
-            <Play className="w-8 h-8 ml-1" />
-          </button>
-          
-          {/* Player controls */}
-          <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent p-4 flex items-end">
-            <div className="w-full h-1 bg-[#262626] rounded-full overflow-hidden">
-              <div className="h-full bg-primary w-1/3" />
-            </div>
-          </div>
-        </div>
+        <ProjectVideo thumbnail={project.thumbnail} videoUrl={project.videoUrl} />
       </SectionContainer>
     </div>
   );

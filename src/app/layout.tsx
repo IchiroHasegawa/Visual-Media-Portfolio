@@ -22,11 +22,12 @@ const jetbrains = JetBrains_Mono({
   weight: ["500"],
 });
 
+import { portfolioData } from "@/data/portfolioData";
 import { CustomCursor } from "@/components/layout/CustomCursor";
 
 export const metadata: Metadata = {
-  title: "ALEX CHEN // Cinematic Portfolio",
-  description: "I am a versatile video editor who partners with directors.",
+  title: portfolioData.owner.initials,
+  description: portfolioData.hero.heading,
 };
 
 export default function RootLayout({

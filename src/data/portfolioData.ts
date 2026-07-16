@@ -189,8 +189,8 @@ export const portfolioData: PortfolioData = {
       type: "Motion // 2D",
       description: "An animated explainer video breaking down complex tech concepts.",
       mediaType: "video",
-      thumbnail: "/images/image2.png",
-      posterImage: "/images/image2.png",
+      thumbnail: "/images/image2.jpg",
+      posterImage: "/images/image2.jpg",
       videoUrl: "[https://youtu.be/42JyRjrLzjY?si=P54QZWJallGdYGBk]",
       featured: true,
       aspectRatio: "aspect-square"

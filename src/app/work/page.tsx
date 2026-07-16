@@ -9,7 +9,7 @@ export default function WorkPage() {
     <div className="bg-[#FAF9F6] text-gray-900 min-h-screen w-full flex flex-col items-center">
       <div className="flex-grow pt-[120px] pb-32 px-margin-mobile md:px-margin-desktop w-full max-w-[1920px]">
         <header className="mb-24 md:mb-32">
-          <h1 className="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-gray-200 break-words mb-8 z-10 relative">
+          <h1 className="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-[#9a8c98] break-words mb-8 z-10 relative">
             SELECTEDWORKS
           </h1>
           <div className="flex flex-wrap gap-4 border-t border-gray-200 pt-8">

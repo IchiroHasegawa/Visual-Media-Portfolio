@@ -48,7 +48,7 @@ export default function ContactPage() {
       <div className="flex-grow pt-[120px] pb-32 px-margin-mobile md:px-margin-desktop w-full max-w-[1920px]">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
           <div className="col-span-1 md:col-span-12 mb-16 md:mb-24">
-            <h1 className="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-[#C4B5FD] break-words max-w-5xl leading-[0.9]">
+            <h1 className="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-[#4a4e69] break-words max-w-5xl leading-[0.9]">
               LET'S<br />CREATE<br />TOGETHER
             </h1>
           </div>

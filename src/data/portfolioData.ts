@@ -176,8 +176,8 @@ export const portfolioData: PortfolioData = {
       type: "Print // Design",
       description: "A typographic poster design for an international exhibition.",
       mediaType: "image",
-      thumbnail: "/images/image2.png",
-      fullImage: "/images/image2.png",
+      thumbnail: "/images/image2.jpg",
+      fullImage: "/images/image2.jpg",
       featured: true,
       aspectRatio: "aspect-[3/4]"
     },
@@ -189,8 +189,8 @@ export const portfolioData: PortfolioData = {
       type: "Motion // 2D",
       description: "An animated explainer video breaking down complex tech concepts.",
       mediaType: "video",
-      thumbnail: "/images/image1.jpg",
-      posterImage: "/images/image1.jpg",
+      thumbnail: "/images/image1.png",
+      posterImage: "/images/image1.png",
       videoUrl: "[https://youtu.be/42JyRjrLzjY?si=P54QZWJallGdYGBk]",
       featured: true,
       aspectRatio: "aspect-square"
